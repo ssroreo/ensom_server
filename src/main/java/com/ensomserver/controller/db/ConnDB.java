@@ -10,7 +10,7 @@ public class ConnDB {
 
     // 常量的设置
     public static final String DRIVER = "com.mysql.cj.jdbc.Driver";
-    public static final String URL = "jdbc:mysql://localhost:3306/ensom?serverTimezone=UTC";
+    public static final String URL = "jdbc:mysql://pokerin.top:3306/ensom?serverTimezone=UTC";
     public static final String USER = "root";
     public static final String PASSWORD = "123456";
 
@@ -52,12 +52,12 @@ public class ConnDB {
 
     }
     //获取ResultSet对象
-    public static ResultSet getResultSet(Statement stmt,String sql)
+    public static ResultSet getResultSet(PreparedStatement stmt)
     {
         ResultSet rs = null;
 
         try {
-            rs = stmt.executeQuery(sql);
+            rs = stmt.executeQuery();
             System.out.println("获取ResultSet对象成功!");
         } catch (SQLException e) {
             // TODO Auto-generated catch block
@@ -113,5 +113,49 @@ public class ConnDB {
             }
             conn = null;
         }
+    }
+    //获取Statement对象
+    public static PreparedStatement getPreparedStatement(Connection conn,String sql)
+    {
+        PreparedStatement stmt = null;
+        try {
+            stmt = conn.prepareStatement(sql);
+            System.out.println("获取Statement对象成功!");
+        } catch (SQLException e) {
+            // TODO Auto-generated catch block
+            System.out.println("获取Statement对象失败!");
+            e.printStackTrace();
+        }
+        return stmt;
+    }
+    //关闭Statement
+    public static void closePreparedStatement(PreparedStatement stmt)
+    {
+        if(stmt != null)
+        {
+            try {
+                stmt.close();
+                System.out.println("关闭Statement对象成功!");
+            } catch (SQLException e) {
+                // TODO Auto-generated catch block
+                System.out.println("关闭Statement对象失败!");
+                e.printStackTrace();
+            }
+            stmt = null;
+        }
+    }
+    public static ResultSet getResultSet(Statement stmt,String sql)
+    {
+        ResultSet rs = null;
+
+        try {
+            rs = stmt.executeQuery(sql);
+            System.out.println("获取ResultSet对象成功!");
+        } catch (SQLException e) {
+            // TODO Auto-generated catch block
+            System.out.println("获取ResultSet对象失败!");
+            e.printStackTrace();
+        }
+        return rs;
     }
 }
