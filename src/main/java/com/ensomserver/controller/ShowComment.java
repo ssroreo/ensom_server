@@ -16,7 +16,7 @@ import java.util.List;
 
 public class ShowComment extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        response.setContentType("application/json;charset=gbk");
+        response.setContentType("application/json;charset=utf-8");
         String sql = "select * from comment order by rand() limit 5";
         List<Comment> commentList = showComment(sql);
         PrintWriter out = response.getWriter();
