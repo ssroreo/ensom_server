@@ -10,7 +10,7 @@ public class ConnDB {
 
     // 常量的设置
     public static final String DRIVER = "com.mysql.cj.jdbc.Driver";
-    public static final String URL = "jdbc:mysql://pokerin.top:3306/ensom?serverTimezone=UTC";
+    public static final String URL = "jdbc:mysql://localhost:3306/ensom?serverTimezone=UTC";
     public static final String USER = "root";
     public static final String PASSWORD = "123456";
 

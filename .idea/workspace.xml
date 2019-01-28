@@ -7,20 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a714e03-a452-4bf9-a7bd-6dc18f869f90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ensomserver/controller/ServletTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ensomserver/controller/ShowComment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ensomserver/controller/domain/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ensom_server_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ensom_server_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ensom_server_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ensom_server_war_exploded2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ensom_server_war_exploded2_archive.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ensom_server_war/ensom_server_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ensom_server_war/ensom_server_war.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensomserver/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ensomserver/controller/CommentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ensomserver/controller/db/ConnDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ensomserver/controller/db/ConnDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ensomserver/controller/CommentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ensomserver/controller/CommentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ensomserver/controller/db/ConnDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ensomserver/controller/db/ConnDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ensomserver/controller/db/ConnDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="993">
-              <caret line="131" column="23" selection-start-line="131" selection-start-column="23" selection-end-line="131" selection-end-column="23" />
+            <state relative-caret-position="192">
+              <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -68,7 +56,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ensomserver/controller/ShowComment.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="370">
@@ -146,6 +134,7 @@
       <find>index</find>
       <find>getUTF8BytesFromGBKString</find>
       <find>response.setContentType</find>
+      <find>pokerin</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -164,9 +153,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ensomserver/controller/domain/Comment.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ensomserver/controller/ServletTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ensomserver/controller/db/ConnDB.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ensomserver/controller/CommentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ensomserver/controller/ShowComment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ensomserver/controller/db/ConnDB.java" />
       </list>
     </option>
   </component>
@@ -391,12 +380,20 @@
       <workItem from="1548405852073" duration="1678000" />
       <workItem from="1548469840497" duration="3071000" />
       <workItem from="1548472976151" duration="787000" />
-      <workItem from="1548646036779" duration="6813000" />
+      <workItem from="1548646036779" duration="7171000" />
     </task>
+    <task id="LOCAL-00001" summary="change">
+      <created>1548658326527</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548658326543</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34051000" />
+    <option name="totallyTimeSpent" value="34409000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -448,6 +445,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change" />
+    <option name="LAST_COMMIT_MESSAGE" value="change" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -553,13 +554,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ensomserver/controller/db/ConnDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="993">
-          <caret line="131" column="23" selection-start-line="131" selection-start-column="23" selection-end-line="131" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/jdk-11/lib/src.zip!/java.base/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -584,6 +578,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ensomserver/controller/db/ConnDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
         </state>
       </provider>
     </entry>
