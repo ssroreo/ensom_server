@@ -8,7 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3a714e03-a452-4bf9-a7bd-6dc18f869f90" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ensomserver/controller/db/ConnDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ensomserver/controller/db/ConnDB.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,7 +22,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ensomserver/controller/db/ConnDB.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
@@ -56,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ensomserver/controller/ShowComment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
+            <state relative-caret-position="258">
+              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -154,8 +153,8 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ensomserver/controller/ServletTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ensomserver/controller/CommentController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ensomserver/controller/ShowComment.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ensomserver/controller/db/ConnDB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ensomserver/controller/ShowComment.java" />
       </list>
     </option>
   </component>
@@ -380,7 +379,7 @@
       <workItem from="1548405852073" duration="1678000" />
       <workItem from="1548469840497" duration="3071000" />
       <workItem from="1548472976151" duration="787000" />
-      <workItem from="1548646036779" duration="7171000" />
+      <workItem from="1548646036779" duration="8619000" />
     </task>
     <task id="LOCAL-00001" summary="change">
       <created>1548658326527</created>
@@ -389,11 +388,25 @@
       <option name="project" value="LOCAL" />
       <updated>1548658326543</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="change">
+      <created>1548658592029</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548658592029</updated>
+    </task>
+    <task id="LOCAL-00003" summary="change">
+      <created>1548659408546</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1548659408547</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34409000" />
+    <option name="totallyTimeSpent" value="35857000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -428,7 +441,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50074625" side_tool="true" weight="0.3298731" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3290993" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.3290993" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
@@ -571,20 +584,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ensomserver/controller/ShowComment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ensomserver/controller/db/ConnDB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ensomserver/controller/ShowComment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
